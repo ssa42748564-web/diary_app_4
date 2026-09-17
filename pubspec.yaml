@@ -1,0 +1,44 @@
+name: diary_app
+description: "我的日記 App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.10.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  flutter_riverpod: ^3.3.2
+
+  # SQLite
+  sqflite: ^2.4.2+1
+  sqflite_common_ffi: ^2.4.0+3
+  sqflite_common_ffi_web: ^1.0.2
+
+  # Path
+  path: ^1.9.1
+
+  # Settings
+  shared_preferences: ^2.5.3
+
+  # Calendar
+  table_calendar: ^3.2.0
+
+  # Date / Time
+  intl: ^0.20.2
+
+  # Backup / Import / Export
+  file_picker: ^12.2.0
+  file_saver: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
